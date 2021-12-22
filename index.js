@@ -2,7 +2,7 @@
  * Part 1: Creating Variables and Constants
  * In this file you should define the following variables with the exact names
  *
- * 1. fullName      -> assign it a value of your full name
+ * 1. fulllName      -> assign it a value of your full name
  * 2. yearOfBirth   -> assign it a value of your year of birth
  * 3. hobby         -> assign it a value of your favorite hobby
  * 4. funFact       -> assign it a value of some fun fact about yourself
@@ -12,6 +12,11 @@
 // Part 1 answer 👇🏻 ...
 
 
+let fullName="bashayer";
+let yearOfBirth=1993;
+let hobby="traveling,reading"
+let funFact="obssesed with paris"
+let image="https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075__340.jpg"
 
 
 
@@ -28,10 +33,10 @@
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
-
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+let current=2022;
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString =`i am ${yearOfBirth-current}`;
+const hobbyString =`my hobby is${hobby}`;
 
 
 
